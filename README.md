@@ -28,7 +28,8 @@ Include your code here
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+![image](https://github.com/Jai-Pradhiksha/ORM/assets/100289733/2652a881-92d0-446c-aa0b-ffc97b3dd4c9)
+
 
 
 ## RESULT
