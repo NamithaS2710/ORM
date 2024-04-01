@@ -29,19 +29,16 @@ MODELS.PY
 from django.db import models
 from django.contrib import admin
 class Employee(models.Model):
-    empid=models.IntegerField()
-    empname=models.CharField(max_length=20)
-    dept=models.CharField(max_length=10)
-    salary=models.FloatField()
+    EmployeeID=models.IntegerField()
+    EmployeeName=models.CharField(max_length=20)
+    EmployeeDept=models.CharField(max_length=10)
+    EmployeeSalary=models.FloatField()
 class EmployeeAdmin(admin.ModelAdmin):
-    list_display=('empid','empname','dept','salary')    
+    list_display=('EmployeeID','EmployeeName','EmployeeDept','EmployeeSalary')    
 ```
 
 ## OUTPUT
-![Screenshot 2024-04-01 203223](https://github.com/NamithaS2710/ORM/assets/133190822/b624a8da-ee0d-414f-82b0-94a8db4fae39)
-
-
-
+![Screenshot 2024-04-01 203223](https://github.com/NamithaS2710/ORM/assets/133190822/371e5ba7-0071-4af5-af06-afd9890f0521)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
